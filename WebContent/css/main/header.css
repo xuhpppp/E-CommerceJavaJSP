@@ -1,0 +1,238 @@
+.topbar {
+	position: relative;
+	height: 49px;
+	width: 100%;
+}
+
+.topbar-container {
+	font-family: 'Poppins', sans-serif;
+}
+
+.topbar-container {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 14px;
+	font-size: 14px;
+}
+
+.topbar-container::after {
+	display: block;
+    content: "";
+    position: absolute;
+    width: 126.5%;
+    height: 1px;
+    background-color: #eeeeee;
+    top: 34px;
+    left: -14%;
+}
+
+.topbar-container-left {
+	display: flex;
+	flex-direction: row;
+}
+
+.topbar-container-right {
+	display: flex;
+	flex-direction: row;
+}
+
+.topbar-container-left-item {
+	margin-right: 20px;
+}
+
+.topbar-container-right-item {
+	margin-left: 20px;
+}
+
+.topbar-container-icon {
+	color: #f99732;
+}
+
+.topbar-container-right-item-link {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+
+.topbar-container-right-item-link:hover {
+	color: #f99732;
+}
+
+.midbar {
+	position: relative;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+}
+
+.midbar-left-gobackhome-img {
+	margin-top: 10px;
+}
+
+.midbar-middle-form-input {
+	width: 360px;
+	height: 48px;
+	padding-left: 20px;
+	padding-right: 25px;
+	border-radius: 8px;
+	border: 1px solid #eeeeee;
+	transition: 0.3s;
+}
+
+.midbar-middle-form-input:hover {
+	border: 1px solid black;
+}
+
+.midbar-middle-form-button {
+	width: 64px;
+	height: 48px;
+	margin-left: 6px;
+	border-radius: 8px;
+	border: 1px solid #333333;
+	background-color: #333333;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.midbar-middle-form-button:hover {
+	background-color: #f99732;
+	border: 1px solid #f99732;
+}
+
+.midbar-middle-form-button-icon {
+	color: white;
+	font-size: 16px;
+}
+
+.midbar-right-click-icon {
+	font-size: 34px;
+	margin-top: 12px;
+	color: #333333;
+	transition: 0.3s;
+}
+
+.midbar-right-click-icon:hover {
+	color: #f99732;
+}
+
+.midbar-right-click-number {
+	background-color: #f99732;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 50%;
+    top: -4px;
+    left: 99%;
+    position: absolute;
+    color: white;
+}
+
+.postbar {
+	position: relative;
+    margin-top: 1.7%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #333333;
+    padding-left: 15%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.postbar-title {
+	display: flex;
+	flex-direction: row;
+	font-weight: 700;
+	background-color: #f7941d;
+	color: white;
+	width: 263px;
+	height: 64px;
+}
+
+.postbar-title-icon {
+	font-size: 22px;
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 30px;
+}
+
+.postbar-title-text {
+	margin: unset;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2%;
+    margin-left: 30px;
+    padding-left: 15%;
+}
+
+.postbar-options {
+	display: flex;
+	flex-direction: row;
+	margin-left: 6%;
+}
+
+.postbar-options-click-text {
+	margin: unset;
+}
+
+.postbar-options-click {
+	text-decoration: none;
+    color: white;
+    display: flex;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 10px;
+    padding: 19px;
+}
+
+.postbar-options-click:hover {
+	background-color: #f7941d;
+}
+
+.postbar-options-click-icon {
+	margin-top: 5px;
+    margin-left: 8px;
+}
+
+.postbar-options-scroll-list {
+	position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 100%;
+    left: 45%;
+    width: 162px;
+    transition: 3s;
+    box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, .2);
+    z-index: 8;
+}
+
+.postbar-options-scroll-list-link {
+	text-decoration: none;
+    color: #403333;
+    background-color: blue;
+    padding: 8px 4px 8px 7px;
+    display: none;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.postbar-options-scroll:hover .postbar-options-scroll-list-link {
+	display: block;
+}
+
+.postbar-options-scroll-list-link:hover {
+	background-color: #f7941d;
+	color: white;
+}

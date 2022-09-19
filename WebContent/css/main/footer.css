@@ -1,0 +1,140 @@
+.footer {
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	background-color: #222222;
+	width: 100%;
+	height: 478px;
+	top: 400%;
+	margin-top: 8%;
+}
+
+.footer-top {
+	display: flex;
+	position: absolute;
+	width: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.footer-top-first {
+	width: 350px;
+	margin-top: 8%;
+}
+
+.footer-top-first-detail {
+	color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-top-first-phone {
+	text-decoration: none;
+	color: #f7941d;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-top-second {
+	display: flex;
+	flex-direction: column;
+	margin-left: 6%;
+	margin-top: 7%;
+	width: 20%;
+}
+
+.footer-top-second-title {
+	font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footer-top-second-click {
+	color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-top: 10%;
+}
+
+.footer-top-second-click:hover {
+	color: #F7941D;
+    padding-left: 10px;
+}
+
+.footer-top-third {
+	display: flex;
+	flex-direction: column;
+	margin-left: 6%;
+	margin-top: 7%;
+	width: 20%;
+}
+
+.footer-top-third-title {
+	font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footer-top-third-click {
+	color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    margin-top: 10%;
+}
+
+.footer-top-third-click:hover {
+	color: #F7941D;
+    padding-left: 10px;
+}
+
+.footer-top-fourth {
+	display: flex;
+	flex-direction: column;
+	margin-left: 6%;
+	margin-top: 7%;
+}
+
+.footer-top-fourth-title {
+	font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footer-top-fourth-detail {
+	color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-top-fourth-icon {
+	margin-top: 3%;
+}
+
+.footer-top-fourth-icon-click {
+	color: white;
+	text-decoration: none;
+	margin-right: 10%;
+	transition: 0.3s;
+}
+
+.footer-top-fourth-icon-click:hover {
+	color: #F7941D;
+}
+
+.footer-bot {
+	position: absolute;
+	color: #fff;
+	font-size: 14px;
+	top: 90%;
+	margin-left: 15%;
+	width: 70%;
+	border-top: 1px solid #4f4f4f;
+}

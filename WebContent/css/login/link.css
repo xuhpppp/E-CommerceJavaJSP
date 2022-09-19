@@ -1,0 +1,22 @@
+.link {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 27%;
+	display: flex;
+	justify-content: space-between;
+	width: 340px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.link-text {
+	color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link-text:hover {
+	color: #fab432;
+}

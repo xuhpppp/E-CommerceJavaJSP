@@ -1,0 +1,36 @@
+.title {
+	position: relative;
+    font-size: 35px;
+    color: #333;
+    font-weight: 400;
+    margin-top: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-text {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.title-text::after {
+	content: "";
+    display: block;
+    background-color: #F7941D;
+    height: 2px;
+    width: 50px;
+    margin-top: 10%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.title-description {
+	font-size: 14px;
+    color: #333;
+    font-weight: 400;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+}

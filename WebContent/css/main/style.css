@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.not-appear {
+	display: none;
+}
+
+.scroll {
+	position: fixed;
+	display: none;
+	width: 50px;
+	height: 50px;
+	right: 2%;
+	bottom: 3%;
+	z-index: 100;
+	border: 3px solid #f7941d;
+	background-color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.scroll-icon {
+	font-size: 36px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scroll:hover {
+	background-color: #f7941d;
+	color: white;
+}

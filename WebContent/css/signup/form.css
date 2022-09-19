@@ -1,0 +1,47 @@
+.form {
+	position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 8%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-text {
+	color: #333;
+	font-size: 14px;
+	margin-top: 5%;
+}
+
+.form-input {
+	height: 45px;
+	background: #F6F7FB;
+	border: none;
+	width: 555px;
+	height: 45px;
+	margin-top: 2%;
+	padding-left: 20px;
+}
+
+.form-remember {
+	margin-top: 3%;
+}
+
+.form-btn {
+	height: 46px;
+    width: 106px;
+    background-color: #333333;
+    font-size: 14px;
+    border: none;
+    transition: 0.3s;
+    color: white;
+    font-weight: 500;
+    margin-top: 5%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-btn:hover {
+	background-color: #F7941D;
+	cursor: pointer;
+}

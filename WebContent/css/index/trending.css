@@ -1,0 +1,142 @@
+.trending {
+	position: relative;
+    margin-top: 7%;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+.trending-title {
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #2c2d3f;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.trending-title::after {
+	display: block;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background-color: #F7941D;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 6%;
+}
+
+.trending-list {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	position: absolute;
+	top: 110px;
+	width: 1170px;
+	left: 50%;
+	transform: translateX(-50%);
+	justify-content: space-around;
+}
+
+.trending-list-item {
+	display: flex;
+	flex-direction: column;
+	width: 263px;
+	margin-bottom: 64px;
+}
+
+.trending-list-item-container{
+	overflow: hidden;
+	width: 263px;
+	height: 359px;
+}
+
+.trending-list-item-container-img {
+	transition: 0.3s;
+	width: 263px;
+}
+
+.trending-list-item-container-img:hover {
+	transform: scale(1.3);
+}
+
+.trending-list-item-name {
+	font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #424646;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.trending-list-item-name:hover {
+	color: #f79b5a;
+}
+
+.trending-list-item-price {
+	display: flex;
+	flex-direction: row;
+}
+
+.trending-list-item-price-cost {
+	text-decoration: line-through;
+	opacity: 0.6;
+	margin-right: 14px;
+}
+
+.trending-list-item-wishlist {
+	text-decoration: none;
+	color: #424646;
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+.trending-list-item-wishlist:hover {
+	color: #f79b5a;
+}
+
+.trending-list-item-salelabel {
+	background-color: #f7941d;
+    width: 70px;
+    height: 26px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 15.5%;
+    margin-top: 1%;
+}
+
+.trending-list-item-hotlabel {
+	background-color: red;
+    width: 70px;
+    height: 26px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 15.5%;
+    margin-top: 1%;
+}
+
+.trending-list-item-newlabel {
+	background-color: #8493ca;
+    width: 70px;
+    height: 26px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-left: 20px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 15.5%;
+    margin-top: 1%;
+}

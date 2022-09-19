@@ -1,0 +1,87 @@
+.category {
+	background-color: #f7f7f7;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    height: 510px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.category-option {
+	display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 15%;
+    width: 263px;
+    background-color: white;
+    height: 100%;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .2);
+}
+
+.category-option-click {
+	text-decoration: none;
+	padding-left: 10%;
+	color: #3a434a;
+	transition: 0.3s;
+	height: 10%;
+	padding-top: 13px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.category-option-click:hover {
+	color: #f7941d;
+}
+
+.category-banner {
+	display: flex;
+	position: absolute;
+	left: 35%;
+}
+
+.category-banner-content {
+	width: 385px;
+}
+
+.category-banner-content-sale {
+	color: #333;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 24%;
+}
+
+.category-banner-content-title {
+	color: #F7941D;
+	font-size: 47px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.category-banner-content-description {
+	color: #333;
+	font-size: 14px;
+}
+
+.category-banner-content-button {
+	width: 141px;
+    position: absolute;
+    height: 47px;
+    background-color: #333333;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5%;
+    transition: 0.3s;
+}
+
+.category-banner-content-button:hover {
+	background-color: #f7941d;
+}
+
+.category-banner-img {
+	height: 510px;
+}

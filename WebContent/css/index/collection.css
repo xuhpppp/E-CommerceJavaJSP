@@ -1,0 +1,47 @@
+.collection {
+	font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+    justify-content: flex-end;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.collection-banner-text {
+	position: absolute;
+    top: 28%;
+    margin-left: 2%;
+    width: 196px;
+}
+
+.collection-banner-text-type {
+	font-size: 16px;
+    color: #F7941D;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.collection-banner-text-title {
+	font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.collection-banner-text-click {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: 500;
+	border-bottom: 1px solid #333;
+	transition: 0.3s;
+	outline: none;
+}
+
+.collection-banner-text-click:hover {
+	color: #f7941d;
+	border-bottom: 1px solid #f7941d;
+}
